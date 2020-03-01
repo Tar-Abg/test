@@ -55,3 +55,8 @@ input{
     font-size: 13px;
     color: #C0C0C0;
 }
+@media only screen and (min-width: 1600px) {
+    .wrapper, .bootomLine  {
+        width: 68% !important;
+    }
+}
