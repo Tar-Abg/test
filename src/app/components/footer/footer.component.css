@@ -1,0 +1,57 @@
+.wrapper{
+    width: 80%;
+    height: 200px;
+    grid-template-columns: 30% 20% 20% 30%;
+    display: grid;
+}
+.FooterTopLine{
+    color: #E7E7E7;
+    background-color: #E7E7E7;
+    height: 5px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(222,222,222,1);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(222,222,222,1);
+    box-shadow: 0px -2px 5px 0px rgba(222,222,222,1);
+}
+p, li{
+    font-family: Circular Book;
+    font-size: 13px;
+}
+.phoneNumber{
+    margin-left: 33px;
+}
+h6{
+    font-family: Circular Std Black;
+    font-size: 14px;
+}
+.logosBox img{
+    width: 13px;
+    height: 13px;
+    margin-right: 14px;
+}
+.hr{
+    color: #BFBFBF;
+    height: 3px;
+    background-color: #BFBFBF;
+}
+input{
+    border: none;
+    outline: none;
+    font-family: Circular Book;
+    font-size: 13px;
+}
+.fa-long-arrow-right{
+    position: absolute;
+    right: 0;
+    color: #F33B73;
+}
+
+.bootomLine{
+    width: 80%;
+    position: relative;
+    bottom: 30px;
+}
+.bootomLine span{
+    font-family: Circular Book;
+    font-size: 13px;
+    color: #C0C0C0;
+}

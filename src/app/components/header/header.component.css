@@ -1,0 +1,16 @@
+.navbar{
+    height: 51px;
+    background-color: rgb(255, 255, 255) !important;
+}
+.icons-box{
+    margin-right: 35px;
+    position: relative;
+    top: 7px;
+    
+}
+.navbar-toggler{
+    outline: none;
+}
+.navbar-toggler-icon{
+    width: 25px !important;
+}

@@ -1,0 +1,8 @@
+.wrapperr{
+    height: 75vh !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.footer{
+    margin-top: 140px;
+}

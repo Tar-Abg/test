@@ -1,0 +1,22 @@
+.pictureUrl{
+    width: 30px;
+    height: 30px;
+}
+span{
+    font-family:  Circular Book;
+    font-size: 11px;
+    color: #969696;
+    margin-top: 5px;
+}
+.donorName{
+    font-family:  Circular Book;
+    position: relative;
+    bottom: 8px;
+}
+.quantity{
+    font-family:  Circular Book;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    color: #F11B5D;
+}

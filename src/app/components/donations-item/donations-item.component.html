@@ -1,0 +1,10 @@
+<div class="d-flex position-relative">
+    <img [src]="donor.pictureUrl" alt="" class="mr-3 mt-2 pictureUrl" >
+    <div>
+        <span>{{donor.donateDate}}</span>
+        <p class="donorName mb-1">{{donor.name + ' ' + donor.surName}}</p>
+    </div>
+    <p class="mb-0 quantity">${{donor.quantity}}</p>
+</div>
+<hr class="mt-0">
+

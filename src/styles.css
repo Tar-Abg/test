@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/9475d6a0b79c164f9f605673714e75d9?family=Circular+Std+Medium);
+@import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
+@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book);
+.wrapperr{
+    height: 75vh !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

@@ -1,0 +1,90 @@
+@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book);
+@import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
+.wrapper{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    padding-top: 10px;
+}
+.title{
+    color: #BCBCBC;
+    font-family: Circular Book;
+    font-size: 12px;
+}
+.goal{
+    font-family: Circular Std Black;
+}
+.goal span{
+    font-family: Circular Book;
+    font-size: 16px;
+}
+.reaised{
+    font-family: Circular Book;
+    font-size: 16px;
+}
+.smallText{
+    padding-top: 3px;
+    font-family: Circular Book;
+    line-height: 12px;
+    font-size: 10px;
+    color: #525A47;
+}
+.boldText{
+    font-family: Circular Std Black;
+}
+.inputBox{
+    border: 1px solid #D7D7D7;
+    width: 100%;
+    /* height: 25px; */
+}
+.inputBox input {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    outline: none;
+    font-family: Circular Book;
+    font-size: 11px;
+    margin-left: 12px;
+}
+.line{
+    margin-left: 17px;
+    margin-top: 10px;
+    height: 15px;
+    border: 0.5px solid #D7D7D7;
+    background-color:  rgb(93, 95, 90);
+}
+.form-control{
+    font-family: Circular Book;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+}
+
+.donateBtn{
+    font-family: Circular Book;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+.helpText{
+    font-family: Circular Book;
+    font-size: 11px;
+}
+.helpText span{
+    font-family: Circular Std Black;
+    font-size: 11px;
+}

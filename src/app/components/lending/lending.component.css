@@ -1,0 +1,74 @@
+@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book);
+@import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
+.wrapper{
+    width: 100%;
+    height: 59.2vh;
+    background: url('../../../assets//images/image__1.png');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../../../assets//images/image__1.png');
+    background-size: cover;
+    
+}
+.text-box{
+    position: absolute;
+    width: 100%;
+    /* bottom: 500px !important; */
+    top: 345px;
+    left: 50px;
+}
+.section{
+    width: 86%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-column-gap: 5%;
+}
+.text-box h2 {
+    font-family: Circular Std Black;
+    font-weight: 900
+}
+.text-box p{
+    color: white;
+    font-family: Circular Book;
+    font-size: 11px;
+}
+.saveProject i{
+    height: 25px;
+}
+.progress{
+    width: 79%;
+    height: 7px;
+}
+.progress-bar{
+    border-radius: 0 5px 5px 0;
+}
+.progresTextBox{
+    position: relative;
+    left: 393px;
+}
+.progresFirstText{
+    margin-right: 110px;
+}
+
+.progresTextBox p{
+    font-family:  Circular Book;
+}
+.progresTextBox p span{
+    font-family: Circular Std Black;
+}
+.goalComponent{
+    position: absolute;
+    top: 80px;
+    right: 0px; 
+}
+
+/* .section{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    grid-column-gap: 5%;
+} */
+
+.navBar{
+    position: sticky;
+    top: 0;
+}
