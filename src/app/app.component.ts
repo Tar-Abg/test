@@ -8,7 +8,6 @@ import { ScrollService } from './services/scroll.service'
 })
 export class AppComponent {
   @HostListener('window:scroll', ['$event']) onScrollEvent($event){
-    console.log($event.target.scrollTop);
     this.scrollService.setScroll($event.target.scrollTop)
   }
   constructor(private scrollService:ScrollService){

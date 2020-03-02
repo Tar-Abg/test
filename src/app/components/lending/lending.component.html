@@ -1,4 +1,4 @@
-<div class="wrapper mx-auto">
+<div class="wrapper mx-auto" (scroll)="myFunction()">
     <div class="section mx-auto">
         <div class="goalComponent">
             <app-goal></app-goal>
@@ -35,12 +35,12 @@
         </div>
     </div>
 </div>
-<div class="navBar">
+<div class="navBar" >
     <app-nav-bar></app-nav-bar>
 </div>
 <div class="section1 mx-auto"> 
     <div>
-        <app-about></app-about>
+        <router-outlet></router-outlet>
     </div>
     <div class="ml-4 mt-5">
         <app-donations-box></app-donations-box>

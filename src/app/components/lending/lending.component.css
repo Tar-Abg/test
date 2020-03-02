@@ -1,17 +1,13 @@
-@import url(//db.onlinewebfonts.com/c/02d8f1743ede250c7c9865f1574d7cc6?family=Circular+Book);
-@import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
 .wrapper{
     width: 100%;
-    height: 59.2vh;
+    height: 61.2vh;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url('../../../assets//images/image__1.png');
     background-size: cover;
-    
 }
 .text-box{
     position: absolute;
     width: 100%;
     top: 345px;
-    /* left: 50px; */
 }
 .section{
     width: 78%;
@@ -23,6 +19,7 @@
     display: grid;
     grid-template-columns: 60% 35%;
     grid-column-gap: 5%;
+    z-index: 1 !important;
 }
 .text-box h2 {
     font-family: Circular Std Black;
@@ -44,11 +41,11 @@
     border-radius: 0 5px 5px 0;
 }
 .progresTextBox{
-    position: relative;
-    left: 393px;
+    position: absolute;
+    left: 32vw;
 }
 .progresFirstText{
-    margin-right: 110px;
+    margin-right: 9vw;
 }
 
 .progresTextBox p{
@@ -66,8 +63,25 @@
 .navBar{
     position: sticky;
     top: 0;
+    z-index:10;
+    background-color: #fff;
+}
+@media only screen and (max-width: 560px) {
+    .section1{
+        grid-template-columns: 100% !important;
+    }
+} 
+@media only screen and (max-width: 960px) {
+    .section1{
+        grid-template-columns: 80%;
+    }
 }
 
+@media only screen and (min-width: 1300px) {
+    .progresFirstText{
+        margin-right: 11.5vw;
+    }
+}
 @media only screen and (min-width: 1600px) {
     .wrapper {
      height: 75vh !important;
@@ -79,6 +93,10 @@
         top: 280px;
     }
     .section1{
-        width: 70%;
+        width: 70% !important;
+        grid-template-columns: 60% 30%;
+    }
+    .progresFirstText{
+        margin-right: 13vw;
     }
 }

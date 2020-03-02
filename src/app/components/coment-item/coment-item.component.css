@@ -1,0 +1,20 @@
+.userPicture{
+    width: 37px;
+    height: 37px;
+}
+p{
+    font-family: Circular Std Black;
+    font-size: 14px;
+}
+p span{
+    font-family: Circular Book;
+    color: #9A9A9A;
+    font-size: 11px;
+}
+.text{
+    font-family: Circular Book;
+}
+.comentImg{
+    width: 90px;
+    height: 100px;
+}

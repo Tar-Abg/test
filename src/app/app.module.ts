@@ -11,6 +11,9 @@ import { AboutComponent } from './components/about/about.component';
 import { DonationsBoxComponent } from './components/donations-box/donations-box.component';
 import { DonationsItemComponent } from './components/donations-item/donations-item.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ComentsComponent } from './components/coments/coments.component';
+import { WriteComentComponent } from './components/write-coment/write-coment.component';
+import { ComentItemComponent } from './components/coment-item/coment-item.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     DonationsBoxComponent,
     DonationsItemComponent,
-    FooterComponent
+    FooterComponent,
+    ComentsComponent,
+    WriteComentComponent,
+    ComentItemComponent
   ],
   imports: [
     BrowserModule,

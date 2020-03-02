@@ -1,17 +1,30 @@
 <div class="wrapper d-flex justify-content-center mx-auto" #navBar>
     <div class="section d-block d-flex justify-content-between">
         <ul class="d-flex list-unstyled mb-0">
-            <li>About</li>
-            <li *ngIf="scrollTop > 600">Updates</li>
-            <li *ngIf="scrollTop > 600">Gallery</li>
-            <li>Comments</li>    
+            <div>
+                <li> <a class="text-decoration-none text-body" [routerLink]="['']" (click)="changActiveRout('about')"> About </a> </li>
+                <hr *ngIf="activeRout == 'about'" class="active" >
+            </div>
+            <div>
+                <li *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400">Updates</li>
+                <hr *ngIf="activeRout == 'updates'" class="active">
+            </div>
+           <div>
+                <li *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400">Gallery</li>
+                <hr *ngIf="activeRout == 'gallery'" class="active">
+           </div>
+            <div>
+                <li> <a class="text-decoration-none text-body" [routerLink]="['coments']" (click)="changActiveRout('comments')">Comments</a></li>    
+                <hr *ngIf="activeRout == 'comments'" class="active">
+            </div>
+            
         </ul>
         <div class="d-flex leftSide">
             <p class="ml-5">25 Nov <span class="d-block">Finish</span></p>
             <div class="line mr-4 ml-3"></div> 
             <p class="mr-4">1982 <br><span class="d-block">Donators</span></p> 
             <div class="line"></div>
-            <button *ngIf="scrollTop > 600" type="button" class="donateBtn mt-1">DONATE NOW</button>
+            <button *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400" type="button" class="donateBtn mt-1">DONATE NOW</button>
         </div>
     </div>
 
