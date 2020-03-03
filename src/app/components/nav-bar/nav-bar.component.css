@@ -4,7 +4,7 @@
     height: 60px;
 }
 .section{
-    width: 80% !important;
+    width: 70% !important;
     background-color: white !important;
 }
 ul li {
@@ -31,7 +31,6 @@ hr{
    font-family: Circular Book;
    font-size: 10px;
 }
-
 .line{
     margin-top: 10px;
     height: 25px;
@@ -60,10 +59,4 @@ hr{
     margin-right: 5px;
     position: relative;
     right: 25px;
-}
-
-@media only screen and (min-width: 1600px) {
-    .wrapper .section {
-        width: 68% !important;
-    }
 }

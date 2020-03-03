@@ -6,11 +6,11 @@
                 <hr *ngIf="activeRout == 'about'" class="active" >
             </div>
             <div>
-                <li *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400">Updates</li>
+                <li *ngIf="scrollTop > 600">Updates</li>
                 <hr *ngIf="activeRout == 'updates'" class="active">
             </div>
            <div>
-                <li *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400">Gallery</li>
+                <li *ngIf="scrollTop > 600">Gallery</li>
                 <hr *ngIf="activeRout == 'gallery'" class="active">
            </div>
             <div>
@@ -24,9 +24,8 @@
             <div class="line mr-4 ml-3"></div> 
             <p class="mr-4">1982 <br><span class="d-block">Donators</span></p> 
             <div class="line"></div>
-            <button *ngIf="scrollTop > 600 && this.windowWidth <  1400 || scrollTop > 900 && this.windowWidth > 1400" type="button" class="donateBtn mt-1">DONATE NOW</button>
+            <button *ngIf="scrollTop > 600" type="button" class="donateBtn mt-1">DONATE NOW</button>
         </div>
     </div>
-
 </div>
 <hr class="m-0">
